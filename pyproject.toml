@@ -1,0 +1,33 @@
+[project]
+name = "requrv-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler>=3.11.0",
+    "authlib>=1.6.1",
+    "authx>=1.4.3",
+    "authx-extra>=1.2.0",
+    "bcrypt>=4.3.0",
+    "boto3>=1.40.15",
+    "fastapi[standard]>=0.115.13",
+    "lago-python-client>=1.31.0",
+    "langfuse>=3.3.0",
+    "litellm>=1.75.9",
+    "mbake>=1.2.4",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.2",
+    "prisma>=0.15.0",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-ai==0.7.4",
+    "pydantic-settings>=2.10.1",
+    "pyotp>=2.9.0",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.18",
+    "qdrant-client>=1.15.1",
+    "requests>=2.32.4",
+    "scraperai>=0.0.1",
+    "types-boto3>=1.40.21",
+    "websockets>=13.1",
+]
